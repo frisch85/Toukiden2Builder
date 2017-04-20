@@ -1,0 +1,131 @@
+#loader {
+  border: 1px solid black;
+  z-index: 1;
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  padding: 100px;
+  left: 10px;
+  right: 10px;
+}
+
+#builder,
+#results {
+  float: left;
+  clear: left;
+  display: block;
+  background-color: #FFFFFF;
+}
+
+#builder {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  width: 720px;
+}
+
+#results {}
+
+#builder span.odd {
+  float: left;
+}
+
+#builder span.even {
+  float: right;
+}
+
+span.build,
+span.recommendation {
+  display: block;
+  border: 1px solid black;
+  float: left;
+}
+
+span.build {
+  width: 900px;
+  height: 330px;
+}
+
+span.recommendation {
+  width: 300px;
+  height: 290px;
+  background-color: #FFEEEE;
+}
+
+span.mitama {
+  width: 298px;
+  height: 288px;
+  display: block;
+  border: 1px solid grey;
+  float: left;
+}
+
+span.abilities {
+  float: left;
+  margin-top: 10px;
+}
+
+span.ability {
+  float: left;
+  width: 100%;
+}
+
+span.ability a {
+  font-size: 10pt;
+  float: right;
+}
+
+span.ability.selected {
+  background-color: #AAFFFF;
+}
+
+span.unique {
+  background-color: #FFDDDD;
+}
+
+input,
+select {
+  max-width: 250px;
+}
+
+span.title {
+  float: none;
+  font-size: large;
+  font-weight: bold;
+  clear: both;
+  display: block;
+  margin: 10px 5px;
+}
+
+span.boost {
+  background-color: #FFAAFF;
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+#excludedMitamas {
+  float: left;
+  clear: both;
+}
+
+#excludedMitamas span a {
+  float: none;
+  display: block;
+}
+
+#builderImport {
+  width: 100%;
+  float: left;
+  padding: 8px 0;
+}
+
+#builderImport * {
+  float: left;
+  margin: 0 8px 0 0;
+}
+
+#builderImport #importBox {
+  width: 100%;
+  max-width: 80%;
+}
