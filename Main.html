@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Toukiden 2 Builder</title>
+    <script type="text/javascript" src="./Main.js" />
+    <link type="text/css" src="./Main.css" />
+  </head>
+  <body>
+    <div id="loader">
+      Initializing Builder... (this could take a moment)
+    </div>
+    <div id="builder">
+      <div id="builderImport">
+        <label for="importBox">Import</label>
+        <input type="text" id="importBox" value="Use this box for exporting and importing builds" />
+        <input type="button" value="import" onclick="document.importBuild();" />
+      </div>
+      <div id="builderAbilities">
+      </div>
+      <div id="excludedMitamas">
+      </div>
+    </div>
+    <div id="results">
+    </div>
+  </body>
+</html>
